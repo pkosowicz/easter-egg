@@ -1,6 +1,6 @@
 @import '_animation.css';
-@import 'components/_egg.css';
-@import 'components/_grass.css';
+@import '_egg.css';
+@import '_grass.css';
 
 * {
     margin: 0;
