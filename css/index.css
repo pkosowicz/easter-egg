@@ -1,7 +1,7 @@
 @import '_animation.css';
-@import '/css/components/_egg.css';
-@import '/css/components/_grass.css';
-@import '/css/components/_bunny.css';
+@import './components/_egg.css';
+@import './components/_grass.css';
+@import './components/_bunny.css';
 
 * {
     margin: 0;
