@@ -1,0 +1,11 @@
+@keyframes wind-five {
+    100% {
+      transform: rotate(5deg);
+    }
+}
+
+@keyframes wind-seven {
+    100% {
+      transform: rotate(7deg);
+    }
+}
