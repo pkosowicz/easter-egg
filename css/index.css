@@ -31,7 +31,7 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 0;
+    top: 50%;
     margin: 0px auto;
 }
 
@@ -44,7 +44,7 @@ body {
 
 .title {
     margin-bottom: 30px;
-    font-size: 40px;
+    font-size: 30px;
     text-shadow: 2px 0px 0px #bdbdbd;
 }
 
@@ -110,7 +110,12 @@ body {
 
 .blade:nth-of-type(4n) {
     border-radius: 0 100% 0 50%;
-    transform: rotate(-8deg);
-    
+    transform: rotate(-8deg);    
+}
+
+@media (min-width:640px) {
+    .title {
+        font-size: 40px;
+    }
 }
 
